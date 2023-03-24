@@ -11,12 +11,12 @@ export default function Home({data}) {
 	return (
 	<>
   	  <Head>
-    	<title>Random Photo Generator</title>
-    	<meta name="description" content="Random Photo Generator from Unsplash" />
+    	<title>Random Pitcture Generator</title>
+    	<meta name="description" content="Random Picture Generator from Unsplash" />
     	<meta name="viewport" content="width=device-width, initial-scale=1" />
   	  </Head>
     	<main className="">
-      		<h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold my-8">Random Photo Generator</h1>
+      		<h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold my-8">Random Picture Generator</h1>
       		{ isError && <h3 className="text-center text-lg sm:text-xl md:text-3xl text-red-500 font-bold my-8">Error, You exceeded the limit; Check later</h3> }
       		<AnimatePresence>
       			<motion.div
