@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Layout from '../components/layout.js';
 
 export default function About() {
 	return (
@@ -8,6 +9,7 @@ export default function About() {
 				<title>About</title>
 				<meta name="description" content="About Random Picture Generator" />
 			</Head>
+			<Layout>
 			<main>
 
 				<nav>
@@ -26,6 +28,7 @@ export default function About() {
 				</section>
 
 			</main>
+			</Layout>
 		</>
 	);
 }
