@@ -36,7 +36,7 @@ export default function Home({data}) {
     				height={300}/>
     			</motion.div>
     		</AnimatePresence>
-    		<div className="flex justify-center">
+    		<div className="flex justify-center mb-16">
     			<button className={`bg-red-600 hover:bg-red-700 hover:scale-105 p-2.5 rounded mt-20 text-xl text-white ${
         							isError ? "opacity-50 cursor-not-allowed disabled:opacity-50" : ""}`}
     					disabled={isError ? "disabled" : ""}
