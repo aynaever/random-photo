@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function About() {
 	return (
@@ -9,7 +10,10 @@ export default function About() {
 			</Head>
 			<main>
 
-				<h1 className="mx-auto my-10 text-3xl font-bold text-center">About</h1>
+				<nav>
+					<Link className="mt-36 text-blue-500 text-lg font-bold" href="/">Home</Link>
+					<h1 className="mx-auto my-10 text-3xl font-bold text-center">About</h1>
+				</nav>
 
 				<section className="w-6/12 mx-auto">
 					<p className="mb-8">Welcome to Random Picture Generator! We are a team of creative and passionate individuals who are dedicated to providing you with the best possible experience. Our app generates random pictures from Unsplash API that can be used for a variety of purposes, including web design, social media, marketing campaigns, and more.</p>
@@ -20,6 +24,7 @@ export default function About() {
 
 					<p className="mb-8">Our team is passionate about what we do, and we are committed to providing you with the best possible experience. We hope that you find our app useful and that it helps you achieve your creative vision. Thank you for choosing us, and we look forward to serving you in the future.</p>
 				</section>
+
 			</main>
 		</>
 	);
