@@ -1,10 +1,12 @@
 import Image from 'next/image';
+import Script from 'next/script';
 import Link from 'next/link';
 
 export default function Header() {
 	return (
 <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
+		<script type="text/javascript" src="../node_modules/flowbite/dist/flowbite.js" defer></script>
     <Link href="/" className="flex items-center">
         <Image src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" width={50} height={100} alt="Flowbite Logo" />
         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">RandomPG</span>
