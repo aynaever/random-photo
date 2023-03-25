@@ -13,7 +13,7 @@ export default function About() {
 
 					<h1 className="mx-auto my-10 text-3xl font-bold text-center">About</h1>
 
-				<section className="w-6/12 mx-auto">
+				<section className="w-11/12 lg:w-9/12 xl:w-7/12 mx-auto">
 					<p className="mb-8">Welcome to Random Picture Generator! We are a team of creative and passionate individuals who are dedicated to providing you with the best possible experience. Our app generates random pictures from Unsplash API that can be used for a variety of purposes, including web design, social media, marketing campaigns, and more.</p>
 
 					<p className="mb-8">Our app saves you time and effort by providing you with high-quality, royalty-free images that you can use instantly without having to worry about licensing or attribution. We understand the importance of having access to visually appealing content, and we strive to make that process as simple and effortless as possible.</p>
